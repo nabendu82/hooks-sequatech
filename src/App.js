@@ -1,10 +1,19 @@
 import './App.css';
-import HookCounter4 from './components/HookCounter4';
+import React from 'react'
+import HookTimer from './components/HookTimer';
+// import GrandParent from './components/GrandParent';
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
-      <HookCounter4 />
+      {/* <UserContext.Provider value='Nabendu'>
+        <ChannelContext.Provider value='TWD'>
+          <GrandParent />
+        </ChannelContext.Provider>
+      </UserContext.Provider> */}
+      <HookTimer />
     </div>
   );
 }
